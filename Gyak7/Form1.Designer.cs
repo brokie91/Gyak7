@@ -66,6 +66,7 @@ namespace Gyak7
             this.txtOp2.Name = "txtOp2";
             this.txtOp2.Size = new System.Drawing.Size(100, 22);
             this.txtOp2.TabIndex = 2;
+            this.txtOp2.TextChanged += new System.EventHandler(this.txtOp2_TextChanged);
             // 
             // lblOp1
             // 

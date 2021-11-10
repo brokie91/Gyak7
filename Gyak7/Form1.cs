@@ -32,6 +32,7 @@ namespace Gyak7
             btnEnd.Text = "Vége";
 
             btnDel.Enabled = false;
+            txtAns.Enabled = false;
         }
 
         private void btnSum_Click(object sender, EventArgs e)
@@ -73,17 +74,27 @@ namespace Gyak7
 
         private void txtOp1_TextChanged(object sender, EventArgs e)
         {
-            if (txtOp1.Text == String.Empty)
+            if (txtOp2.Text == String.Empty && txtOp1.Text == String.Empty)
             {
-                if (txtOp2.Text == String.Empty)
-                {
-                    btnDel.Enabled = false;
-                }
-                else
-                {
-                    btnDel.Enabled = true;
-                }
+                btnDel.Enabled = false;
             }
+            else
+            {
+                btnDel.Enabled = true;
+            }
+        }
+
+        private void txtOp2_TextChanged(object sender, EventArgs e)
+        {
+            if (txtOp2.Text == String.Empty && txtOp1.Text == String.Empty)
+            {
+                btnDel.Enabled = false;
+            }
+            else
+            {
+                btnDel.Enabled = true;
+            }
+            
         }
     }
 }
