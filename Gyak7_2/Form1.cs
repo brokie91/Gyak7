@@ -46,13 +46,32 @@ namespace Gyak7_2
         {
             if (!(txtA.Text==String.Empty) && !(txtB.Text == String.Empty))
             {
-                txtC.Text = (int.Parse(txtA.Text) + int.Parse(txtB.Text)).ToString();
+                txtC.Text = (Math.Sqrt (Math.Pow(int.Parse(txtA.Text),2) + Math.Pow(int.Parse(txtB.Text),2)) ).ToString();
             }
         }
 
         private void txtA_TextChanged(object sender, EventArgs e)
         {
+            if (txtA.Text == String.Empty)
+            {
+                btnSzamol.Enabled = false;
+            }
+            else
+            {
+                btnSzamol.Enabled = true;
+            }
+        }
 
+        private void txtB_TextChanged(object sender, EventArgs e)
+        {
+            if (txtB.Text == String.Empty)
+            {
+                btnSzamol.Enabled = false;
+            }
+            else
+            {
+                btnSzamol.Enabled = true;
+            }
         }
     }
 }

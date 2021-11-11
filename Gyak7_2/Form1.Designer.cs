@@ -63,6 +63,7 @@ namespace Gyak7_2
             this.txtB.Name = "txtB";
             this.txtB.Size = new System.Drawing.Size(100, 22);
             this.txtB.TabIndex = 3;
+            this.txtB.TextChanged += new System.EventHandler(this.txtB_TextChanged);
             // 
             // lbB
             // 
