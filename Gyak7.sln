@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gyak7_2", "Gyak7_2\Gyak7_2.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gyak7_3", "Gyak7_3\Gyak7_3.csproj", "{0295026D-9F5F-4FAF-8D99-1F9AAE7F241F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gyak7_4", "Gyak7_4\Gyak7_4.csproj", "{D9B3414C-AE5E-444F-92DD-9C07B8390827}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0295026D-9F5F-4FAF-8D99-1F9AAE7F241F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0295026D-9F5F-4FAF-8D99-1F9AAE7F241F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0295026D-9F5F-4FAF-8D99-1F9AAE7F241F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B3414C-AE5E-444F-92DD-9C07B8390827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B3414C-AE5E-444F-92DD-9C07B8390827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B3414C-AE5E-444F-92DD-9C07B8390827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B3414C-AE5E-444F-92DD-9C07B8390827}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
